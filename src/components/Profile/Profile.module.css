@@ -1,0 +1,74 @@
+p {
+  margin: 0;
+}
+
+.card {
+  width: 240px;
+  border: 2px solid black;
+  border-radius: 6px;
+  margin-bottom: 60px;
+}
+
+.avatar {
+  display: block;
+  width: 80px;
+  border-radius: 50%;
+  background-color: #434340;
+}
+
+.username {
+  font-weight: 700;
+  font-size: 20px;
+  color: black;
+}
+
+.text {
+  color: gray;
+}
+
+.userInfo {
+  background-color: #f9f9f6;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+}
+
+.userStats {
+  background-color: #d1d1d0;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  border-top: 2px solid grey;
+  border-bottom-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+
+.statsItem {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  padding: 8px;
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+  color: black;
+}
+
+.statsItem:nth-child(1) {
+  border-left: none;
+}
+
+.statsItem:nth-child(3) {
+  border-right: none;
+}
+
+.statsValue {
+  font-weight: 700;
+}

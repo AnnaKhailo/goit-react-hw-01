@@ -1,0 +1,35 @@
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  width: 80px;
+  border: 2px solid black;
+  border-radius: 6px;
+  padding: 8px;
+  color: black;
+}
+
+.avatar {
+  display: block;
+  max-width: 100%;
+}
+
+.name {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.text {
+  font-size: 14px;
+  margin: 0;
+}
+
+.online {
+  color: green;
+}
+
+.offline {
+  color: red;
+}

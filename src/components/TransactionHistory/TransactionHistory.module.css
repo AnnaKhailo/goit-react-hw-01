@@ -1,0 +1,39 @@
+table {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-collapse: collapse;
+  width: 480px;
+  margin-bottom: 12px;
+}
+
+.tableHeader {
+  background-color: #434340;
+  color: #fff;
+}
+
+th,
+td {
+  border: 2px solid black;
+  padding: 4px 14px;
+  text-align: center;
+  width: 160px;
+}
+
+.tableHeader th {
+  border-bottom: none;
+}
+
+tbody {
+  color: black;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #d1d1d0;
+}
+
+.typeTransaction {
+  text-align: start;
+  padding-left: 38px;
+  text-transform: capitalize;
+}
